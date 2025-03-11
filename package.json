@@ -1,16 +1,14 @@
 {
-  "name": "file-serving-node",
+  "name": "node-file-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple Node.js file server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "mime": "^4.0.6",
-    "mime-types": "^2.1.35"
+    "formidable": "^2.1.1",
+    "mime-types": "^2.1.35",
+    "node-file-server": "file:"
   }
 }
